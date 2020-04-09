@@ -17,6 +17,8 @@ app.get('*', (req, res, next) => {
     <!DOCTYPE html>
     <html>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name=description content="news list display">
         <title>SSR with RR</title>
         <script src="/bundle.js" defer></script>
       </head>
