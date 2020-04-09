@@ -33,6 +33,7 @@ export const timeSinceFormat = (date) => {
  * @returns {String} - domain name from complete url
  */
 export const getDomain = (url) => {
+  if (!url) return '';
   const splitArr = url.split('/');
   return splitArr[2];
 };

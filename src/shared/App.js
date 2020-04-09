@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import News from './components/organisms/News';
 
-const data = {
+const data1 = {
   hits: [
     {
       created_at: '2020-04-07T06:41:44.000Z',
@@ -66,7 +66,10 @@ const data = {
 
 class App extends Component {
   render() {
-    return <News data={data} />;
+    const newsData = this.props.data
+      ? this.props.data
+      : window.__INITIAL_DATA__;
+    return <News data={newsData} />;
   }
 }
 
