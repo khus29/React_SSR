@@ -9,6 +9,10 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
+            - node/install:
+              install-yarn: true
+              node-version: latest
+            - run: node --version
             - run: npm install
             - run: npm start
 workflows:
