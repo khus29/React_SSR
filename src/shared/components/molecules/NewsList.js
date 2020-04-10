@@ -59,8 +59,12 @@ class NewsList extends Component {
                 );
               })}
             <ListChild className='pagination'>
-              <Link to={`?page=${nextPage}`} className='more-link'>
-                More
+              <Link
+                to={`?page=${nextPage}`}
+                className='more-link'
+                aria-label='click here for more news'
+              >
+                More News
               </Link>
             </ListChild>
           </React.Fragment>
