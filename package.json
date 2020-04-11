@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "IST",
-  "description": "TGA Project react ssr assignment",
+  "description": "TGA Project react assignment",
   "babel": {
     "presets": [
       "env",
