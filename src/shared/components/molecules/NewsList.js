@@ -52,7 +52,7 @@ class NewsList extends Component {
 
     return (
       <div>
-        <p>Page number : {currentPage}</p>
+        <p>Current Page number : {currentPage}</p>
         <Div>top | new</Div>
         <List>
           <React.Fragment>
