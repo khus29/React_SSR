@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/server/index.js",
   "scripts": {
-    "start": "webpack -w & node server.js",
-    "build": "webpack",
+    "start": "webpack && node server.js",
+    "build": "webpack -w & node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
