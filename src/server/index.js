@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import React from 'react';
-import { renderToString } from 'react-dom/server';
+import { renderToNodeStream } from 'react-dom/server';
 import serialize from 'serialize-javascript';
 import { StaticRouter } from 'react-router-dom';
 import App from '../shared/App';
@@ -16,7 +16,7 @@ app.get('*', (req, res, next) => {
   const pageNum = parseInt(req.query.page) || 0;
   fetchNewsData(pageNum).then((data) => {
     const context = {};
-    const markup = renderToString(
+    const markup = renderToNodeStream(
       <StaticRouter location={req.url} context={context}>
         <App data={data} />
       </StaticRouter>
