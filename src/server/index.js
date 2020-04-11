@@ -1,4 +1,5 @@
 import express from 'express';
+import compression from 'compression';
 import cors from 'cors';
 import React from 'react';
 import { renderToNodeStream } from 'react-dom/server';
@@ -11,6 +12,7 @@ import { fetchNewsData } from '../shared/api';
 const app = express();
 const port = process.env.PORT || 3000;
 app.use(cors());
+app.use(compression());
 app.use(express.static('public'));
 
 app.get('*', (req, res, next) => {
