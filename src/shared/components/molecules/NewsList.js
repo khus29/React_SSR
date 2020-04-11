@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import queryString from 'query-string';
+import styled from 'styled-components';
 import { fetchNewsData } from '../../api';
 
 import List from '../atoms/List';
@@ -8,6 +9,12 @@ import ListChild from '../atoms/ListChild';
 import ListItem from '../molecules/ListItem';
 
 import { setLocalstorage, getLocalstorage } from '../../helpers';
+
+const Div = styled.div`
+  background-color: #ff4500;
+  margin-left: 40px;
+  padding: 10px 20px;
+`;
 
 class NewsList extends Component {
   constructor(props) {
@@ -46,6 +53,7 @@ class NewsList extends Component {
     return (
       <div>
         <p>Page number : {currentPage}</p>
+        <Div>top | new</Div>
         <List>
           <React.Fragment>
             {newsData &&
