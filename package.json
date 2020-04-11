@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server/index.js",
   "scripts": {
-    "start": " node ./node_modules/webpack/bin/webpack.js && node server.js",
+    "start": "node_modules/webpack/bin/webpack.js && node server.js",
     "devStart": "webpack -w && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
