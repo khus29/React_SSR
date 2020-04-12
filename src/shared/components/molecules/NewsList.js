@@ -67,10 +67,11 @@ class NewsList extends Component {
 
     return (
       <div>
-        <Div>Page number : {currentPage + 1}</Div>
+        <Div>Page number : {+currentPage + 1}</Div>
         <Div className='navigation'>
           <Anchor href='/'>
             <Image
+              alt='news logo image'
               src='https://news.ycombinator.com/y18.gif'
               width='15'
               height='15'

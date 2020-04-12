@@ -1,0 +1,989 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Component should render correctly and match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NewsList
+    data={
+      Array [
+        Object {
+          "author": "Vinnl",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270646",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+        Object {
+          "author": "Vinnla",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270686",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(styled.div)>
+          Page number : 
+          1
+        </ForwardRef(styled.div)>,
+        <ForwardRef(styled.div)
+          className="navigation"
+        >
+          <Anchor
+            href="/"
+          >
+            <ForwardRef(styled.img)
+              alt="news logo image"
+              height="15"
+              src="https://news.ycombinator.com/y18.gif"
+              width="15"
+            />
+          </Anchor>
+          <Span
+            className="top-filter"
+          >
+            top
+          </Span>
+           | new
+        </ForwardRef(styled.div)>,
+        <List>
+          <React.Fragment>
+            <ListItem
+              hideNewsHandler={[Function]}
+              item={
+                Object {
+                  "author": "Vinnl",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270646",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                }
+              }
+            />
+            <ListItem
+              hideNewsHandler={[Function]}
+              item={
+                Object {
+                  "author": "Vinnla",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270686",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                }
+              }
+            />
+            <ListChild
+              className="pagination"
+            >
+              <Link
+                aria-label="click here for more news"
+                className="more-link"
+                replace={false}
+                to="?page=1"
+              >
+                More News
+              </Link>
+            </ListChild>
+          </React.Fragment>
+        </List>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "Page number : ",
+            1,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Page number : ",
+          1,
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "baseHash": 1105857511,
+            "componentId": "sc-AxgMl",
+            "isStatic": false,
+            "rules": Array [
+              "
+  margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    margin: 0 20px 20px;
+  }
+
+  &.navigation {
+    background-color: #ff4500;
+    margin: 0;
+    padding: 10px 20px;
+    @media (min-width: 1024px) {
+      margin: 0 20px;
+      padding: 10px 20px;
+    }
+  }
+",
+            ],
+            "staticRulesId": "",
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-AxgMl",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Anchor
+              href="/"
+            >
+              <ForwardRef(styled.img)
+                alt="news logo image"
+                height="15"
+                src="https://news.ycombinator.com/y18.gif"
+                width="15"
+              />
+            </Anchor>,
+            <Span
+              className="top-filter"
+            >
+              top
+            </Span>,
+            " | new",
+          ],
+          "className": "navigation",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <ForwardRef(styled.img)
+                alt="news logo image"
+                height="15"
+                src="https://news.ycombinator.com/y18.gif"
+                width="15"
+              />,
+              "href": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "alt": "news logo image",
+                "height": "15",
+                "src": "https://news.ycombinator.com/y18.gif",
+                "width": "15",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "baseHash": 1882630949,
+                  "componentId": "sc-AxheI",
+                  "isStatic": false,
+                  "rules": Array [
+                    "
+  border: 1px #ffffff solid;
+",
+                  ],
+                  "staticRulesId": "",
+                },
+                "displayName": "styled.img",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-AxheI",
+                "target": "img",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "top",
+              "className": "top-filter",
+            },
+            "ref": null,
+            "rendered": "top",
+            "type": [Function],
+          },
+          " | new",
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "baseHash": 1105857511,
+            "componentId": "sc-AxgMl",
+            "isStatic": false,
+            "rules": Array [
+              "
+  margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    margin: 0 20px 20px;
+  }
+
+  &.navigation {
+    background-color: #ff4500;
+    margin: 0;
+    padding: 10px 20px;
+    @media (min-width: 1024px) {
+      margin: 0 20px;
+      padding: 10px 20px;
+    }
+  }
+",
+            ],
+            "staticRulesId": "",
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-AxgMl",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <React.Fragment>
+            <ListItem
+              hideNewsHandler={[Function]}
+              item={
+                Object {
+                  "author": "Vinnl",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270646",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                }
+              }
+            />
+            <ListItem
+              hideNewsHandler={[Function]}
+              item={
+                Object {
+                  "author": "Vinnla",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270686",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                }
+              }
+            />
+            <ListChild
+              className="pagination"
+            >
+              <Link
+                aria-label="click here for more news"
+                className="more-link"
+                replace={false}
+                to="?page=1"
+              >
+                More News
+              </Link>
+            </ListChild>
+          </React.Fragment>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              Array [
+                <ListItem
+                  hideNewsHandler={[Function]}
+                  item={
+                    Object {
+                      "author": "Vinnl",
+                      "comment_text": null,
+                      "created_at": "2019-02-28T11:38:16.000Z",
+                      "created_at_i": 1551353896,
+                      "num_comments": 61,
+                      "objectID": "19270646",
+                      "points": 705,
+                      "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                      "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                    }
+                  }
+                />,
+                <ListItem
+                  hideNewsHandler={[Function]}
+                  item={
+                    Object {
+                      "author": "Vinnla",
+                      "comment_text": null,
+                      "created_at": "2019-02-28T11:38:16.000Z",
+                      "created_at_i": 1551353896,
+                      "num_comments": 61,
+                      "objectID": "19270686",
+                      "points": 705,
+                      "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                      "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                    }
+                  }
+                />,
+              ],
+              <ListChild
+                className="pagination"
+              >
+                <Link
+                  aria-label="click here for more news"
+                  className="more-link"
+                  replace={false}
+                  to="?page=1"
+                >
+                  More News
+                </Link>
+              </ListChild>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "19270646",
+              "nodeType": "class",
+              "props": Object {
+                "hideNewsHandler": [Function],
+                "item": Object {
+                  "author": "Vinnl",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270646",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "19270686",
+              "nodeType": "class",
+              "props": Object {
+                "hideNewsHandler": [Function],
+                "item": Object {
+                  "author": "Vinnla",
+                  "comment_text": null,
+                  "created_at": "2019-02-28T11:38:16.000Z",
+                  "created_at_i": 1551353896,
+                  "num_comments": 61,
+                  "objectID": "19270686",
+                  "points": 705,
+                  "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                  "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Link
+                  aria-label="click here for more news"
+                  className="more-link"
+                  replace={false}
+                  to="?page=1"
+                >
+                  More News
+                </Link>,
+                "className": "pagination",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "aria-label": "click here for more news",
+                  "children": "More News",
+                  "className": "more-link",
+                  "replace": false,
+                  "to": "?page=1",
+                },
+                "ref": null,
+                "rendered": "More News",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": Symbol(react.fragment),
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(styled.div)>
+            Page number : 
+            1
+          </ForwardRef(styled.div)>,
+          <ForwardRef(styled.div)
+            className="navigation"
+          >
+            <Anchor
+              href="/"
+            >
+              <ForwardRef(styled.img)
+                alt="news logo image"
+                height="15"
+                src="https://news.ycombinator.com/y18.gif"
+                width="15"
+              />
+            </Anchor>
+            <Span
+              className="top-filter"
+            >
+              top
+            </Span>
+             | new
+          </ForwardRef(styled.div)>,
+          <List>
+            <React.Fragment>
+              <ListItem
+                hideNewsHandler={[Function]}
+                item={
+                  Object {
+                    "author": "Vinnl",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270646",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  }
+                }
+              />
+              <ListItem
+                hideNewsHandler={[Function]}
+                item={
+                  Object {
+                    "author": "Vinnla",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270686",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  }
+                }
+              />
+              <ListChild
+                className="pagination"
+              >
+                <Link
+                  aria-label="click here for more news"
+                  className="more-link"
+                  replace={false}
+                  to="?page=1"
+                >
+                  More News
+                </Link>
+              </ListChild>
+            </React.Fragment>
+          </List>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "Page number : ",
+              1,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Page number : ",
+            1,
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "baseHash": 1105857511,
+              "componentId": "sc-AxgMl",
+              "isStatic": false,
+              "rules": Array [
+                "
+  margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    margin: 0 20px 20px;
+  }
+
+  &.navigation {
+    background-color: #ff4500;
+    margin: 0;
+    padding: 10px 20px;
+    @media (min-width: 1024px) {
+      margin: 0 20px;
+      padding: 10px 20px;
+    }
+  }
+",
+              ],
+              "staticRulesId": "",
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-AxgMl",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Anchor
+                href="/"
+              >
+                <ForwardRef(styled.img)
+                  alt="news logo image"
+                  height="15"
+                  src="https://news.ycombinator.com/y18.gif"
+                  width="15"
+                />
+              </Anchor>,
+              <Span
+                className="top-filter"
+              >
+                top
+              </Span>,
+              " | new",
+            ],
+            "className": "navigation",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ForwardRef(styled.img)
+                  alt="news logo image"
+                  height="15"
+                  src="https://news.ycombinator.com/y18.gif"
+                  width="15"
+                />,
+                "href": "/",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "alt": "news logo image",
+                  "height": "15",
+                  "src": "https://news.ycombinator.com/y18.gif",
+                  "width": "15",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "baseHash": 1882630949,
+                    "componentId": "sc-AxheI",
+                    "isStatic": false,
+                    "rules": Array [
+                      "
+  border: 1px #ffffff solid;
+",
+                    ],
+                    "staticRulesId": "",
+                  },
+                  "displayName": "styled.img",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-AxheI",
+                  "target": "img",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "top",
+                "className": "top-filter",
+              },
+              "ref": null,
+              "rendered": "top",
+              "type": [Function],
+            },
+            " | new",
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "baseHash": 1105857511,
+              "componentId": "sc-AxgMl",
+              "isStatic": false,
+              "rules": Array [
+                "
+  margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    margin: 0 20px 20px;
+  }
+
+  &.navigation {
+    background-color: #ff4500;
+    margin: 0;
+    padding: 10px 20px;
+    @media (min-width: 1024px) {
+      margin: 0 20px;
+      padding: 10px 20px;
+    }
+  }
+",
+              ],
+              "staticRulesId": "",
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-AxgMl",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <React.Fragment>
+              <ListItem
+                hideNewsHandler={[Function]}
+                item={
+                  Object {
+                    "author": "Vinnl",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270646",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  }
+                }
+              />
+              <ListItem
+                hideNewsHandler={[Function]}
+                item={
+                  Object {
+                    "author": "Vinnla",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270686",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  }
+                }
+              />
+              <ListChild
+                className="pagination"
+              >
+                <Link
+                  aria-label="click here for more news"
+                  className="more-link"
+                  replace={false}
+                  to="?page=1"
+                >
+                  More News
+                </Link>
+              </ListChild>
+            </React.Fragment>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                Array [
+                  <ListItem
+                    hideNewsHandler={[Function]}
+                    item={
+                      Object {
+                        "author": "Vinnl",
+                        "comment_text": null,
+                        "created_at": "2019-02-28T11:38:16.000Z",
+                        "created_at_i": 1551353896,
+                        "num_comments": 61,
+                        "objectID": "19270646",
+                        "points": 705,
+                        "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                        "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                      }
+                    }
+                  />,
+                  <ListItem
+                    hideNewsHandler={[Function]}
+                    item={
+                      Object {
+                        "author": "Vinnla",
+                        "comment_text": null,
+                        "created_at": "2019-02-28T11:38:16.000Z",
+                        "created_at_i": 1551353896,
+                        "num_comments": 61,
+                        "objectID": "19270686",
+                        "points": 705,
+                        "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                        "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                      }
+                    }
+                  />,
+                ],
+                <ListChild
+                  className="pagination"
+                >
+                  <Link
+                    aria-label="click here for more news"
+                    className="more-link"
+                    replace={false}
+                    to="?page=1"
+                  >
+                    More News
+                  </Link>
+                </ListChild>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "19270646",
+                "nodeType": "class",
+                "props": Object {
+                  "hideNewsHandler": [Function],
+                  "item": Object {
+                    "author": "Vinnl",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270646",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "19270686",
+                "nodeType": "class",
+                "props": Object {
+                  "hideNewsHandler": [Function],
+                  "item": Object {
+                    "author": "Vinnla",
+                    "comment_text": null,
+                    "created_at": "2019-02-28T11:38:16.000Z",
+                    "created_at_i": 1551353896,
+                    "num_comments": 61,
+                    "objectID": "19270686",
+                    "points": 705,
+                    "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+                    "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Link
+                    aria-label="click here for more news"
+                    className="more-link"
+                    replace={false}
+                    to="?page=1"
+                  >
+                    More News
+                  </Link>,
+                  "className": "pagination",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-label": "click here for more news",
+                    "children": "More News",
+                    "className": "more-link",
+                    "replace": false,
+                    "to": "?page=1",
+                  },
+                  "ref": null,
+                  "rendered": "More News",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": Symbol(react.fragment),
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

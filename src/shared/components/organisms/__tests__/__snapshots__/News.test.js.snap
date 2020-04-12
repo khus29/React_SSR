@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Component should render correctly and match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <News
+    data={
+      Array [
+        Object {
+          "author": "Vinnl",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270646",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+        Object {
+          "author": "Vinnla",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270686",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "data": Array [
+        Object {
+          "author": "Vinnl",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270646",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+        Object {
+          "author": "Vinnla",
+          "comment_text": null,
+          "created_at": "2019-02-28T11:38:16.000Z",
+          "created_at_i": 1551353896,
+          "num_comments": 61,
+          "objectID": "19270686",
+          "points": 705,
+          "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+          "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "data": Array [
+          Object {
+            "author": "Vinnl",
+            "comment_text": null,
+            "created_at": "2019-02-28T11:38:16.000Z",
+            "created_at_i": 1551353896,
+            "num_comments": 61,
+            "objectID": "19270646",
+            "points": 705,
+            "title": "Mozilla releases the largest to-date public domain transcribed voice dataset",
+            "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+          },
+          Object {
+            "author": "Vinnla",
+            "comment_text": null,
+            "created_at": "2019-02-28T11:38:16.000Z",
+            "created_at_i": 1551353896,
+            "num_comments": 61,
+            "objectID": "19270686",
+            "points": 705,
+            "title": "Mozilla releases the largest to-date public domain transcribed voice dataseta",
+            "url": "https://blog.mozilla.org/blog/2019/02/28/sharing-our-common-voices-mozilla-releases-the-largest-to-date-public-domain-transcribed-voice-dataset/",
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
