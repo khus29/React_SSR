@@ -12,10 +12,18 @@ const SpanTag = styled.span`
   }
   &.title {
     font-size: 13px;
-    margin-right: 5px;
+    display: block;
+    margin: 10px 0;
+    @media (min-width: 1024px) {
+      display: inline;
+      margin: 0 40px;
+    }
   }
   &.timeStamp {
     color: #828286;
+  }
+  &.top-filter {
+    color: #ffffff;
   }
 `;
 

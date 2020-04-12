@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { fetchNewsData } from '../../api';
 
 import List from '../atoms/List';
+import Span from '../atoms/Span';
+import Anchor from '../atoms/Anchor';
 import { Link } from 'react-router-dom';
 import ListChild from '../atoms/ListChild';
 import ListItem from '../molecules/ListItem';
@@ -11,11 +13,24 @@ import ListItem from '../molecules/ListItem';
 import { setLocalstorage, getLocalstorage } from '../../helpers';
 
 const Div = styled.div`
-  background-color: #ff4500;
-  margin-left: 40px;
-  padding: 10px 20px;
-`;
+  margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    margin: 0 20px 20px;
+  }
 
+  &.navigation {
+    background-color: #ff4500;
+    margin: 0;
+    padding: 10px 20px;
+    @media (min-width: 1024px) {
+      margin: 0 20px;
+      padding: 10px 20px;
+    }
+  }
+`;
+const Image = styled.img`
+  border: 1px #ffffff solid;
+`;
 class NewsList extends Component {
   constructor(props) {
     super(props);
@@ -52,8 +67,17 @@ class NewsList extends Component {
 
     return (
       <div>
-        <p>Current Page number : {currentPage}</p>
-        <Div>top | new</Div>
+        <Div>Page number : {currentPage + 1}</Div>
+        <Div className='navigation'>
+          <Anchor href='/'>
+            <Image
+              src='https://news.ycombinator.com/y18.gif'
+              width='15'
+              height='15'
+            />
+          </Anchor>
+          <Span className='top-filter'>top</Span> | new
+        </Div>
         <List>
           <React.Fragment>
             {newsData &&

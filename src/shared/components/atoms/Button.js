@@ -18,6 +18,15 @@ const ButtonTag = styled.button`
       transform: rotate(-90deg);
     }
   }
+
+  &.hide-link {
+    display: block;
+    margin-top: 20px;
+    @media (min-width: 768px) {
+      display: inline;
+      margin-top: 10px;
+    }
+  }
 `;
 
 const Button = ({ className, children, onClickHandler, ariaLabel }) => (
